@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+
+
+
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    min-width:20%;
+    max-width: 25%;
+
+  
+    
+
+
+}
+
+.container .mainmenu{
+
+    position: fixed;
+    background-size: cover;
+    /* background-color: red; */
+    min-height: 100vh;
+    height: auto;
+    min-width:300px;
+    max-width: 400px;
+    border: 2px solid black;
+    
+    
+
+}
+.container .mainmenu .logo{
+
+    position: fixed;
+    max-width: 200px;
+    color: white;
+
+
+}
+
+.container .mainmenu .left-menu-icon{
+
+
+    position: fixed;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    top: 120px;
+    margin-left: 10px;
+    
+}
+.mainmenu .left-menu-icon a{
+
+    text-decoration:none;
+    line-height: 70px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.mainmenu .left-menu-icon a span{
+
+    font-size: 30px
+    
+
+}
+.mainmenu .left-menu-icon .menu-profile-container{
+
+    text-decoration:none;
+    line-height: 70px;
+    color: black;
+    font-size: 20px;
+    margin-left: -9px;
+}
+.mainmenu .menu-profile-container .menu-profileimg{
+
+    width: 40px;
+    clip-path: circle();
+    overflow: hidden;
+    left: 0;
+   
+}
+
+
+
+
+.left-menu-icon .menu-icon{
+
+    position: absolute;
+    top: 110%;
+
+}
+
+
+
+/* story bar */
+
+
+
+.container2{
+
+    position: absolute;
+    border: 2px solid black;
+    background-size: cover;
+    height: auto;
+    width: 30%;
+    border-radius: 10px;
+    top: 70px;
+    left: 30%;
+ 
+}
+
+.container2 .storybar
+{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+
+
+.storybar a{
+
+    text-decoration: none;
+    color: black;
+    
+
+
+
+}
+.storybar a p{
+
+    
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.storybar a img{
+
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center,center;
+    border-radius: 50%;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    background-size: 250%;
+    margin-top: 20px;
+    margin-left:30px;
+    background-position: 100% 100%;
+    padding: 4px;
+}
+
+
+/* First post */
+
+.container3{
+
+
+
+    position: absolute;
+    border: 2px solid black;
+    background-size: cover;
+    height:auto;
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 10px;
+    top: 300px;   
+    left: 30%;    
+
+
+
+
+}
+.container3 .postbar{
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+
+  
+   
+}
+.icon-section{
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 70px;
+
+
+}
+
+.icon-section a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    height: 20px;
+    width: 50px;
+    top: 15px;
+    left: 20px;
+
+
+
+}
+
+.container3 .icon-section img{
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.container3 .postbar img{
+
+
+
+   width: 300px;
+  
+}
+
+ .bottom-postbar{
+
+
+    position: relative;
+    left: 0;
+    margin-left: 10px;
+ }
+
+.bottom-postbar a{
+
+
+    text-decoration: none;
+}
+.bottom-postbar a span{
+
+    font-size: 30px;
+    border-bottom: none;
+    font-weight: 50;
+    color: black;
+    
+}
+
+.bottom-postbar .post_cc{
+
+
+}
+
+.bottom-postbar .post_cc a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100px;
+
+}
+
+.bottom-postbar .saveico{
+
+    float: right;
+    margin-right: 10px;
+}
+
+
+.bottom-postbar .saveico a{
+
+    text-decoration: none;
+}
+
+.saveico a span{
+
+    font-size: 30px;
+    border-bottom: none;
+    font-weight: 50;
+    color: black;
+    
+}
+
+
+
+
+/* second post */
+
+.container4{
+
+
+
+    position: absolute;
+    border: 2px solid black;
+    background-size: cover;
+    height:auto;
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 10px;
+    top: 1000px;   
+    left: 30%;    
+
+
+}
+.container4 .postbar{
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+
+  
+   
+}
+.icon-section{
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 70px;
+
+
+}
+
+.icon-section a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    height: 20px;
+    width: 50px;
+    top: 15px;
+    left: 20px;
+
+
+
+}
+
+.container4 .icon-section img{
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.container4 .postbar img{
+
+
+
+   width: 300px;
+  
+}
+
+ .bottom-postbar{
+
+
+    position: relative;
+    left: 0;
+    margin-left: 10px;
+ }
+
+.bottom-postbar a{
+
+
+    text-decoration: none;
+}
+.bottom-postbar a span{
+
+    font-size: 30px;
+    border-bottom: none;
+    font-weight: 50;
+    color: black;
+    
+}
+
+.bottom-postbar .saveico{
+
+    float: right;
+    margin-right: 10px;
+}
+
+.bottom-postbar .post_cc a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100px;
+
+}
+
+.bottom-postbar .saveico a{
+
+    text-decoration: none;
+}
+
+.saveico a span{
+
+    font-size: 30px;
+    border-bottom: none;
+    font-weight: 50;
+    color: black;
+    
+}
+
+
+/* post 3 */
+
+.container5{
+
+
+
+    position: absolute;
+    border: 2px solid black;
+    background-size: cover;
+    height:auto;
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 10px;
+    top: 1630px;   
+    left: 30%;    
+
+
+}
+.container5 .postbar{
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+
+  
+   
+}
+.icon-section{
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 70px;
+
+
+}
+
+.icon-section a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    height: 20px;
+    width: 50px;
+    top: 15px;
+    left: 20px;
+
+
+
+}
+
+.container5 .icon-section img{
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.container5 .postbar img{
+
+
+
+   width: 300px;
+  
+}
+
+ .bottom-postbar{
+
+
+    position: relative;
+    left: 0;
+    margin-left: 10px;
+ }
+
+.bottom-postbar a{
+
+
+    text-decoration: none;
+}
+.bottom-postbar a span{
+
+    font-size: 30px;
+    border-bottom: none;
+    font-weight: 50;
+    color: black;
+    
+}
+
+.bottom-postbar .saveico{
+
+    float: right;
+    margin-right: 10px;
+}
+
+
+.bottom-postbar .saveico a{
+
+    text-decoration: none;
+}
+
+.saveico a span{
+
+    font-size: 30px;
+    border-bottom: none;
+    font-weight: 50;
+    color: black;
+    
+}
+.bottom-postbar .post_cc a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100px;
+
+}
+
+/* My profile Section */
+
+.right-container{
+
+
+    
+
+    position: absolute;
+    border: 2px solid black;
+    background-size: cover;
+    height:200px;
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 10px;
+    top: 70px;   
+    left: 70%;    
+
+
+
+}
+
+.right-container .myprofile{
+
+
+    position: relative;
+
+}
+
+.right-container .myprofile img{
+
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 15px;
+
+
+    
+}
+
+.right-container .myprofile a{
+    position: relative;
+
+
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    top: 12px;
+     margin-left: 20px;
+  
+}
+
+.right-container .myprofile p{
+
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+
+    left: 20px;
+}
+
+.right-container .myprofile .verify{
+
+    position: absolute;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+
+.right-container .myprofile .prof-details{
+
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    left: -20px;
+    padding-top: 5px;
+    
+
+}
+.right-container .myprofile .prof-details p{
+
+    margin-right:70px;
+}
+
+.right-container .myprofile .prof-desc{
+
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 25px;
+
+    justify-content: flex-start;
+   
+
+
+
+}
+
+.right-container .myprofile .prof-desc p{
+
+    margin-right: 40px;
+
+
+}
